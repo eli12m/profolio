@@ -1,0 +1,81 @@
+body{
+    position: relative;
+}
+
+@font-face {
+    font-family: handWritingFont;
+    src: url(fonts/NothingYouCouldDo.ttf);
+}
+
+.navbar-brand{
+    font-family: handWritingFont;
+}
+
+nav{
+    background-color: rgba(199, 21, 154, 0.925);
+}
+
+nav > a, nav > div > ul > li > a, .navbar-toggler-icon{
+    color: black;
+    font-weight: bold;
+}
+
+.jumbotron > div > div > p{
+    padding-top : 25%;
+}
+
+.jumbotron > div > div > img{
+    padding-top : 15%;
+}
+
+.margin-top-15{
+    margin-top : 15%;
+}
+
+.background-color-grey{
+    background-color: lightgray;
+}
+
+.padding-10{
+    padding : 10%;
+}
+
+.padding-left-10{
+    padding-left: 10%;
+}
+
+.padding-right-10{
+    padding-right: 10%;
+}
+
+.padding-bottom-3{
+    padding-bottom: 3%;
+}
+
+.margin-bottom-3{
+    margin-bottom: 3%;
+}
+
+.border-bott{
+    border-bottom: 5px solid grey;
+}
+
+.margin-top-10{
+    margin-top : 10%;
+}
+
+.margin-top-5{
+    margin-top: 5%;
+}
+
+.center{
+    margin : auto;
+}
+
+.border-radius-50{
+    border-radius: 50%;
+}
+
+.margin-left-10{
+    margin-left: 5px;
+}

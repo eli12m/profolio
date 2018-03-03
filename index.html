@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="main_portfolio.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+</head>
+<body data-spy="scroll" data-target=".navbar">
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light bg-info fixed-top">
+            <a class="navbar-brand" href="#">Eli Levi</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#About">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portflio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>    
+                </ul>
+            </div>  
+        </nav>
+    </header>
+    <main class="container">
+        <div id = "About" class="jumbotron">
+            <div class = "row">
+                <div class = "col-md-6">
+                    <p>Front-End Developer and UX/UI designer, with practical experience in project management, branding strategy, and creative direction, devoted to functional programming and information architecture</p>
+                    <h6>Web Developer - User Experience Designer - Graphic Artist</h6>       
+                </div>
+                <div class = "col-md-6">
+                    <img class = "rounded-circle" src = "pics/person1.jpg" alt = "person picture">
+                </div>
+            </div>
+        </div>
+        <div id = "portflio" class = "row text-center">
+            <div class = "col-md-12">
+                <h2 class = "margin-top-5 padding-left-10 padding-right-10 padding-bottom-3 margin-bottom-3 border-bott">PORTFOLIO</h2>
+            </div>
+        </div>
+        <div class = "row margin-bottom-3">
+            <div class = "col-md-6">
+                <div>
+                    <img class="img-thumbnail" src = "pics/web_project1.png" alt = "web project 1">
+                </div>
+            </div>
+            <div class = "col-md-6">
+                <div>
+                    <img class="img-thumbnail" src = "pics/web_project2.png" alt = "web project 2">
+                </div>   
+            </div>
+        </div>
+        <div class = "row margin-bottom-3">
+            <div class = "col-md-6">
+                <div>
+                    <img class="img-thumbnail" src = "pics/web_project3.png" alt = "web project 3">
+                </div>
+            </div>
+            <div class = "col-md-6">
+                <div>
+                    <img class="img-thumbnail" src = "pics/web_project4.png" alt = "web project 4">
+                </div>
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "col-md-6">
+                <div>
+                    <img class="img-thumbnail" src = "pics/web_project5.png" alt = "web project 5">
+                </div>    
+            </div>
+            <div class = "col-md-6">
+                <div>
+                    <img class="img-thumbnail" src = "pics/web_project6.jpg" alt = "web project 6">
+                </div>   
+            </div>
+        </div>
+        <div id = "contact" class = "row text-center">
+            <div class = "col-md-12">
+                <h2 class = "margin-top-5 padding-left-10 padding-right-10 padding-bottom-3 margin-bottom-3 border-bott">CONTACT ME</h2>
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "col-md-6">
+                <form action="/action_page.php">
+                    <div class = "form-group">
+                        <label for = "name">Name:</label>
+                        <input type = "text" class = "form-control" id = "name" placeholder = "Enter name" name = "name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                    </div>
+                    <div class = "form-group">
+                        <label for = "phone">Phone Number:</label>
+                        <input type = "tel" class = "form-control" id = "phone" placeholder = "Enter phone number" name = "phone">
+                    </div>
+                    <div class = "form-group">
+                        <label for = "message">Messsage:</label>
+                        <textarea class = "form-control" id = "message" placeholder = "Enter message" name = "message" rows = "4" cols = "50"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+            <div class = "col-md-6">
+                <p class = "margin-top-15">Want to get in touch with me? Be it to request more info about myself or my experience, to ask for my resume, tips on how to solve your sudoku, random questions about the universe and the meaning of life, or even if only for some nice Fika here in stunning Toronto... just feel free to drop me a line anytime.</p>
+                <p>I promise to reply A.S.A.P.</p>
+            </div>
+        </div>
+    </main>
+    <nav class = "background-color-grey padding-10 margin-top-10">
+        <div class = "row">
+            <div class = "col-md-6 text-center">
+                <h3>ABOUT THIS PAGE</h3>
+                <p>Made with <span><i class="fa fa-coffee"></i></span> and <span><i class = "fa fa-music"></i></span><br>by Eli Levi</p>
+            </div>
+            <div class = "col-md-6 text-center">
+                <h3>AROUND THE WEB</h3>
+                <!--<div class="btn-group">-->
+                    <div>
+                    <a href = "https://twitter.com/?lang=he" target="_blank" class="btn btn-primary border-radius-50"><i class="fa fa-twitter"></i></a>
+                    <a href = "https://www.facebook.com/campaign/landing.php?&campaign_id=355052058250195&extra_1=s|c|232888412119|e|facebook|&placement=&creative=232888412119&keyword=facebook&partner_id=googlesem&extra_2=campaignid%3D943637693%26adgroupid%3D46169706679%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D1t1%26target%3D%26targetid%3Dkwd-294445080142%26loc_physical_ms%3D1008002%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=EAIaIQobChMIi-mWgJ3L2QIVGPEbCh2D6wu-EAAYASAAEgLyj_D_BwE" target="_blank" class="btn btn-primary border-radius-50 margin-left-10"><i class="fa fa-facebook"></i></a>
+                    <a href = "https://www.flickr.com/photos/tags/flicker/" target="_blank" class="btn btn-primary border-radius-50 margin-left-10"><i class="fa fa-flickr"></i></a>
+                    <a href = "https://www.linkedin.com/" target="_blank" class="btn btn-primary border-radius-50 margin-left-10"><i class="fa fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>    
+</body>
+</html>
